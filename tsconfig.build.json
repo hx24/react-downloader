@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "dist", // 编译后的文件输出路径
+    "module": "ESNext", // 输出类型CommonJS、None、UMD、AMD、ESNext，其中ESNext是标准的ESModule的形式
+    "target": "ES5", // 编译以后附和什么样的ES标准，从ES3到ESNext，
+    "declaration": true, // 自动为每一个js文件生成一个.d.ts的类型文件
+    "jsx": "react", // 转换jsx语法到React.createElement
+    "moduleResolution": "node", // 指定绝对路径的包的查找方式，看下方描述
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    // 要编译的文件
+    "src/react-downloader"
+  ],
+  "exclude": [
+    // 不编译的文件
+    "src/**/*.test.tsx"
+  ]
+}
