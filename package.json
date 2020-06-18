@@ -11,16 +11,15 @@
     "download",
     "React"
   ],
-  "homepage": "http://vikingship.xyz",
+  "homepage": "https://github.com/hx24/react-downloader",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vikingmute/vikingship"
+    "url": "https://github.com/hx24/react-downloader"
   },
   "files": [
     "dist"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "author": "hx",
   "scripts": {
     "start": "react-scripts start",
